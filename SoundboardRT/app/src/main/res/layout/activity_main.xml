@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/funny">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="608dp"
+        android:text="Play Horn" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="608dp"
+        android:text="Stop Horn" />
+
+    <Button
+        android:id="@+id/button2Start"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="191dp"
+        android:layout_alignRight="@id/buttonStart"
+        android:text="Play Investigate" />
+
+    <Button
+        android:id="@+id/button2Stop"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="33dp"
+        android:text="Stop Investigate" />
+
+    <Button
+        android:id="@+id/button3Start"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+        android:layout_alignRight="@id/button2Start"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/button2Start"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="191dp"
+        android:text="PRESS IF YOU DARE!" />
+
+    <Button
+        android:id="@+id/button3Stop"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="189dp"
+        android:text="CAN'T HANDLE IT..." />
+
+    <Button
+        android:id="@+id/stopAll"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="120dp"
+        android:layout_alignLeft="@id/button3Start"
+        android:text="STOP ALL SERVICES" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="305dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-18dp"
+        android:layout_marginRight="-18dp"
+        android:text="My Services Soundboard"
+        android:textColor="#C4AE26"
+        android:textSize="22sp"
+        app:autoSizeTextType="none"
+        app:fontFamily="sans-serif-smallcaps" />
+
+
+
+
+
+
+</RelativeLayout>
